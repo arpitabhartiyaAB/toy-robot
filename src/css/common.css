@@ -1,0 +1,28 @@
+.header {
+    background-color: #dbdbdb;
+    background-image: url("../images/bg.png");
+}
+
+.block {
+    width: 80px;
+    height: 80px;
+}
+
+.activeBlockEAST {
+    width: 100%;
+}
+
+.activeBlockWEST {
+    width: 100%;
+    transform: rotate(180deg);
+}
+
+.activeBlockSOUTH {
+    width: 100%;
+    transform: rotate(90deg);
+}
+
+.activeBlockNORTH {
+    width: 100%;
+    transform: rotate(270deg);
+}
